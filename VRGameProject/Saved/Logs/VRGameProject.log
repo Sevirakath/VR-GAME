@@ -1416,3 +1416,117 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.03.14-07.32.56:169][619]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms
 [2023.03.14-07.32.56:173][619]AssetCheck: New page: Asset Save: VRTemplateMap
 [2023.03.14-07.32.56:173][619]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.03.14-07.33.50:121][ 93]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.03.14-07.33.50:527][140]LogNavigationDataBuild: Navigation data generation finished for RecastNavMesh-Default (RecastNavMesh /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap:PersistentLevel.RecastNavMesh-Default).
+[2023.03.14-07.33.58:559][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.14-07.33.58:618][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.03.14-07.33.58:632][ 98]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.03.14-07.33.58:633][ 98]LogSavePackage: Moving '../../../../../../Users/GAME1/Desktop/VR-GAME/VRGameProject/Saved/VRTemplateMap70B98BB740C455F97F1B7989653FBA65.tmp' to '../../../../../../Users/GAME1/Desktop/VR-GAME/VRGameProject/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2023.03.14-07.33.58:641][ 98]LogFileHelpers: No new changes to save!
+[2023.03.14-07.33.58:641][ 98]LogFileHelpers: Saving map 'VRTemplateMap' took 0.031
+[2023.03.14-07.33.58:648][ 98]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 178 ms)
+[2023.03.14-07.33.58:651][ 98]AssetCheck: New page: Asset Save: VRTemplateMap
+[2023.03.14-07.33.58:651][ 98]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
+[2023.03.14-07.34.15:602][111]Cmd: POLY SELECT ADJACENT WALLS
+[2023.03.14-07.34.32:539][ 95]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.03.14-07.34.42:481][256]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2023.03.14-07.34.42:481][256]LogActorFactory: Actor Factory attempting to spawn Class /Script/Engine.SpotLight
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: ================================================
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Total job queries 59, among them cache hits 2 (3.39%)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Tracking 56 distinct input hashes that result in 45 distinct outputs (80.36%)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: RAM used: 0.57 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.07%
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Shaders Compiled: 20
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Jobs assigned 21, completed 20 (95.24%)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Average time worker was idle: 45.27 s
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.09 s
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Job execution time: average 2.93 s, max 5.81 s
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Job life time (pending + execution): average 2.98 s, max 5.83
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 20.26 s
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Jobs were issued in 21 batches (only local compilation was used), average 1.00 jobs/batch
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Average processing rate: 0.99 jobs/sec
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Total thread time: 53.38 s
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Total thread preprocess time: 0.83 s
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Percentage time preprocessing: 1.55%
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Effective parallelization: 2.63 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    4 times, average 4.83 sec, max 5.50 sec, min 3.59 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight (compiled    4 times, average 4.18 sec, max 4.72 sec, min 3.29 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 3.53 sec, max 3.85 sec, min 2.95 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy (compiled    3 times, average 0.93 sec, max 0.98 sec, min 0.85 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy (compiled    4 times, average 0.90 sec, max 0.95 sec, min 0.79 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 36.19% of total time (compiled    4 times, average 4.83 sec, max 5.50 sec, min 3.59 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 31.35% of total time (compiled    4 times, average 4.18 sec, max 4.72 sec, min 3.29 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy - 19.84% of total time (compiled    3 times, average 3.53 sec, max 3.85 sec, min 2.95 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 6.73% of total time (compiled    4 times, average 0.90 sec, max 0.95 sec, min 0.79 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display:      TBasePassVSFPrecomputedVolumetricLightmapLightingPolicy - 5.23% of total time (compiled    3 times, average 0.93 sec, max 0.98 sec, min 0.85 sec)
+[2023.03.14-07.34.44:652][504]LogShaderCompilers: Display: ================================================
+[2023.03.14-07.34.52:167][397]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.03.14-07.34.52:173][397]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.03.14-07.34.52:173][397]PIE: New page: PIE session: VRTemplateMap (14 mars 2023 à 09:34:52)
+[2023.03.14-07.34.52:205][397]LogPlayLevel: Creating play world package: /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.03.14-07.34.52:212][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007087s)
+[2023.03.14-07.34.52:212][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap to /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap (0.007134s)
+[2023.03.14-07.34.52:212][397]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.03.14-07.34.52:212][397]LogAIModule: Creating AISystem for world VRTemplateMap
+[2023.03.14-07.34.52:213][397]LogPlayLevel: PIE: World Init took: (0.000909s)
+[2023.03.14-07.34.52:222][397]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2023.03.14-07.34.52:223][397]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2023.03.14-07.34.52:223][397]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.03.14-07.34.52:223][397]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.03.14-07.34.52:223][397]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.03.14-07.34.52:223][397]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.03.14-07.34.52:223][397]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.03.14-07.34.52:223][397]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.03.14-07.34.52:223][397]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.03.14-07.34.52:223][397]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.03.14-07.34.52:224][397]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2023.03.14-07.34.52:224][397]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2023.03.14-07.34.52:224][397]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.03.14-07.34.52:226][397]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.03.14-07.34.52:241][397]LogAudioMixer: Display: Using Audio Hardware Device LG HDR WFHD (NVIDIA High Definition Audio)
+[2023.03.14-07.34.52:241][397]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.03.14-07.34.52:241][397]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.03.14-07.34.52:241][397]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.03.14-07.34.52:242][397]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2023.03.14-07.34.52:242][397]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2023.03.14-07.34.52:243][397]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2023.03.14-07.34.52:243][397]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2023.03.14-07.34.52:243][397]LogInit: FAudioDevice initialized.
+[2023.03.14-07.34.52:243][397]LogAudio: Display: Audio Device (ID: 3) registered with world 'VRTemplateMap'.
+[2023.03.14-07.34.52:246][397]LogLoad: Game class is 'VRGameMode_C'
+[2023.03.14-07.34.52:248][397]LogWorld: Bringing World /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap.VRTemplateMap up for play (max tick rate 0) at 2023.03.14-08.34.52
+[2023.03.14-07.34.52:248][397]LogWorld: Bringing up level for play took: 0.001938
+[2023.03.14-07.34.52:250][397]LogOnline: OSS: Created online subsystem instance for: :Context_4
+[2023.03.14-07.34.52:252][397]LogSlate: New Slate User Created. Platform User Id 8, User Index 8, Is Virtual User: 1
+[2023.03.14-07.34.52:253][397]LogSlate: Slate User Registered.  User Index 8, Is Virtual User: 1
+[2023.03.14-07.34.52:253][397]PIE: Server logged in
+[2023.03.14-07.34.52:254][397]PIE: Play in editor total start time 0,081 seconds.
+[2023.03.14-07.34.52:290][397]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2023.03.14-07.34.54:565][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.14-07.34.54:565][665]LogWorld: BeginTearingDown for /Game/VRTemplate/Maps/UEDPIE_0_VRTemplateMap
+[2023.03.14-07.34.54:565][665]LogWorld: UWorld::CleanupWorld for VRTemplateMap, bSessionEnded=true, bCleanupResources=true
+[2023.03.14-07.34.54:565][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.14-07.34.54:569][665]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.03.14-07.34.54:571][665]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.03.14-07.34.54:577][665]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.03.14-07.34.54:577][665]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2023.03.14-07.34.54:577][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.03.14-07.34.54:579][665]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2023.03.14-07.34.54:582][665]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.03.14-07.34.54:583][665]LogSlate: Slate User Unregistered.  User Index 8
+[2023.03.14-07.34.54:583][665]LogSlate: Slate User Destroyed.  User Index 8, Is Virtual User: 1
+[2023.03.14-07.34.54:584][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2023.03.14-07.34.54:646][667]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2023.03.14-07.35.03:208][686]Cmd: SELECT NONE
+[2023.03.14-07.42.34:221][336]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.03.14-07.42.34:270][336]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.03.14-07.42.34:286][336]LogSavePackage: Moving output files for package: /Game/VRTemplate/Maps/VRTemplateMap
+[2023.03.14-07.42.34:286][336]LogSavePackage: Moving '../../../../../../Users/GAME1/Desktop/VR-GAME/VRGameProject/Saved/VRTemplateMap679548B343EA53FF7DEF51B61CBD53A1.tmp' to '../../../../../../Users/GAME1/Desktop/VR-GAME/VRGameProject/Content/VRTemplate/Maps/VRTemplateMap.umap'
+[2023.03.14-07.42.34:294][336]LogFileHelpers: No new changes to save!
+[2023.03.14-07.42.34:294][336]LogFileHelpers: Saving map 'VRTemplateMap' took 0.032
+[2023.03.14-07.42.34:309][336]LogFileHelpers: InternalPromptForCheckoutAndSave took 88 ms (total: 266 ms)
+[2023.03.14-07.42.34:314][336]AssetCheck: New page: Asset Save: VRTemplateMap
+[2023.03.14-07.42.34:314][336]LogContentValidation: Display: Validating /Script/Engine.World /Game/VRTemplate/Maps/VRTemplateMap.VRTemplateMap
